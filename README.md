@@ -15,3 +15,4 @@ Yet to do:
   - uWaterloo page (About the courses and stuff I'm taking at university)
   - Add behaviour to Email, LinkedIn and Google+ pins
   - Homepage BG slideshow?
+  - Add a picture of me
