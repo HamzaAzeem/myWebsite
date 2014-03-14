@@ -1,20 +1,29 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>JavaScript Sandbox</title>
-		<link rel="shortcut icon" href="images/webicon_s.png">
-	</head>
-	<body ng-app>
-		<div>
-			<input ng-model="name" placeholder="Type in name"></input>
-			<br />
-			<p> Hello {{ name }} </p>
-		</div>
+    <head>
+        <title>JavaScript Sandbox</title>
+        <link rel="shortcut icon" href="images/webicon_s.png">
+    </head>
+    <body>
 
-		<a ng-click="shouldShowDiv = !shouldShowDiv">Show content below</a>
-		<div ng-show="shouldShowDiv">This div will be shown only if <em>shouldShowDiv</em> is true</div>
-		<div ng-hide="shouldShowDiv">This div will be hidden if <em>shouldShowDiv</em> is not true</div>
+<!--This page was for playing around with Javascript. There is no significance to it otherwise.-->
 
-		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script> 
-	</body>
+        <!--AngularJS-->
+        <div ng-app>
+            <!--Simple two-way databinding-->
+            <input ng-model="name" placeholder="Type in name"></input>
+            <br />
+            <h3> Hello {{ name }} </h3>
+
+            <!--ng-show/hide demo-->
+            <button ng-click="shouldShowDiv = !shouldShowDiv">Show content below</button>
+            <div ng-show="shouldShowDiv">This div will be shown only if <em>shouldShowDiv</em> is true</div>
+            <div ng-hide="shouldShowDiv">This div will be hidden if <em>shouldShowDiv</em> is not true</div>
+
+        </div>
+        <hr />
+        <h4>Experimenting with Angular is done on Plunkr now.</h4>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.2.12/angular.min.js"></script> 
+    </body>
 </html>
