@@ -1,18 +1,25 @@
+/*----------------------------
+AboutMe Template Style
+Designer: Hamza Azeem;
+Contact: hamzaazeem1@gmail.com;
+------------------------------*/
+
 /*Import custom fonts*/
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
 @import url(http://fonts.googleapis.com/css?family=Lato);
 @import url(http://fonts.googleapis.com/css?family=Lobster+Two:400italic);
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
 
-/***DISPLAY***/
-
+/*Basic Reset*/
 * {margin: 0px; padding: 0px;}
 
+/*Background*/
 html {
 	background-image: url('../images/wall5.jpg');
 	min-height: 100%;
 	background-size: cover;
 }
 
+/*Header*/
 #topbar {
 	min-width: 100%;
 	height: 75px;
@@ -32,7 +39,7 @@ html {
 	width: 270px;
 }
 
-/*Navigation Bar*/
+/*Navigation*/
 nav {
 	width: 760px;
 	margin: 0 auto;
@@ -66,8 +73,8 @@ nav ul li a {
 	font: 24px 'Yanone Kaffeesatz', sans-serif;
 	transition: all 0.1s;
 	box-sizing:border-box;
-	-moz-box-sizing:border-box;
-	-webkit-box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
 }
 
 nav ul a:hover {
@@ -78,7 +85,7 @@ nav ul a:hover {
 
 /***CONTAINER***/
 
-/*Desc*/
+/*Containers*/
 #container {
 	min-height: 900px;
     max-width: 1200px;
@@ -89,7 +96,7 @@ nav ul a:hover {
     position: relative;
     z-index: -1;
     box-shadow: 0 5px 5px rgba(20,20,20,0.8);
-    background: url('../images/brilliant.png');
+    background: url('../images/white_wall.png');
 }
 
 #textwrapper {
@@ -100,6 +107,7 @@ nav ul a:hover {
     overflow: auto;
 }
 
+/*Text Styles*/
 h1 {
     font-family: 'Lobster Two', sans-serif;
     font-style: italic;
