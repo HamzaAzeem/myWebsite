@@ -7,12 +7,14 @@ Status: In progress
 
 Working pages: 3
   - Home
+  - uWaterloo page (About the courses and stuff I'm taking at university)
   - Resume
   - About Me
   
 Yet to do:
   - Projects page
-  - uWaterloo page (About the courses and stuff I'm taking at university)
   - Add behaviour to Email, LinkedIn and Google+ pins
   - Homepage BG slideshow?
+  - Fix "Year" links in uWaterloo page
+  - Change speed and font of btt button
   - Add a picture of me
