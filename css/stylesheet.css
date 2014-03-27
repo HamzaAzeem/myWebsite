@@ -1,12 +1,11 @@
 /*----------------------------
-Main Template Style
+Base Template Style
 Designer: Hamza Azeem;
 Contact: hamzaazeem1@gmail.com;
 ------------------------------*/
 
 /*Import custom fonts*/
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
-@import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
 /***********
 DISPLAY
@@ -18,14 +17,15 @@ DISPLAY
 /*General Styles and Background*/
 html {
 	background-image: url('../images/wall5.jpg');
-	min-height: 100%;
 	background-size: cover;
+	background-attachment:fixed;
+	transition: all 0.5s;
 }
 
 body {
 	min-height: 100%;
 	width: 100%;
-	max-width: 960px;
+	position:;
 }
 
 /*Header*/
@@ -35,6 +35,7 @@ body {
 	background-color:#2C2C2C;
 	box-shadow: 0 6px 5px #131313;
 	position: fixed;
+	z-index:10;
 }
 
 #nameholder {
@@ -55,6 +56,7 @@ nav {
 	margin-top: 75px;
 	right: 0;
 	position: absolute;
+	z-index: 9;
 }
 
 nav ul {
@@ -90,196 +92,4 @@ nav ul a:hover {
 	padding-left: 7px;
 	background-color: grey;
 	font-style: italic;
-}
-
-/*Text element*/
-#deepwords {
-	float: left;
-	position: relative;
-	margin: 13.5em 5% 0;
-}
-
-#deepwords p {
-	color: white;
-	font-family: 'Raleway', sans-serif;
-	font-size: 5em;
-	text-shadow: 3px 2px 0px rgba(0,0,0,0.8);
-}
-
-/*Social Media Icons*/
-#media {
-	width: 600px;
-	position: relative;
-	padding-left: 0; 
-	float: left;
-	margin-top: 3em;
-	left: 5%;
-}
-
-#media i {
-	display: inline-block;
-	font-size: 2.5em;
-	line-height: 50px;
-	width: 1.3em;
-	padding: 7px;
-	text-align: center;
-	border-radius: 100%;
-	background-color: grey;
-	opacity: 0.6;
-}
-
-#media a {
-	text-decoration: none;
-	color:white;
-	display: inline-block;
-}
-
-/*Random JS box*/
-#js {
-	width: 150px;
-	height: 20px;
-	background-color: grey;
-	border-radius: 5%;
-	border: 2px solid #028ED9;
-	position: absolute;
-	bottom: 0;
-	right: 0;
-	float: right;
-	margin: auto 4px 8px;
-	padding: 10px;
-}
-
-#js a {
-	text-decoration: none;
-	color: white;
-	color: white;
-	font-family: sans-serif;
-	text-align: center;
-}
-
-/***********************************
-ANIMATIONS
-************************************/
-/*Social Media Icons*/
-#mail i:hover, i:active {
-	animation: fadeG 0.5s ease-in-out;
-	-webkit-animation: fadeG 0.5s ease-in-out;
-	animation-fill-mode: forwards;
-	-webkit-animation-fill-mode: forwards;
-}
-
-#git i:hover, i:active {
-	animation: fadeBlk 0.5s ease-in-out;
-	-webkit-animation: fadeBlk 0.5s ease-in-out;
-	animation-fill-mode: forwards;
-	-webkit-animation-fill-mode: forwards;
-}
-
-#lin i:hover, i:active {
-	animation: fadeB 0.5s ease-in-out;
-	-webkit-animation: fadeB 0.5s ease-in-out;
-	animation-fill-mode: forwards;
-	-webkit-animation-fill-mode: forwards;
-}
-
-#gplus i:hover, i:active {
-	animation: fadeR 0.5s ease-in-out;
-	-webkit-animation: fadeR 0.5s ease-in-out;
-	animation-fill-mode: forwards;
-	-webkit-animation-fill-mode: forwards;
-}
-
-/*Mail*/
-@keyframes fadeG
-{
-	from{opacity:0.6;}
-	to{opacity:1; background-color: green;}
-}
-
-@-webkit-keyframes fadeG
-{
-	from{opacity:0.6;}
-	to{opacity:1; background-color: green;}
-}
-
-/*Git*/
-@keyframes fadeBlk
-{
-	from{opacity:0.6; }
-	to{opacity:1; background-color: black;}
-}
-
-@-webkit-keyframes fadeBlk
-{
-	from{opacity:0.6;}
-	to{opacity:1; background-color: black;}
-}
-
-/*LinkedIn*/
-@keyframes fadeB
-{
-	from{opacity:0.6;}
-	to{opacity:1; background-color: #4875B4;}
-}
-
-@-webkit-keyframes fadeB
-{
-	from{opacity:0.6;}
-	to{opacity:1; background-color: #4875B4;}
-}
-
-/*gPlus*/
-@keyframes fadeR
-{
-	from{opacity:0.6;}
-	to{opacity:1; background-color: #C63D2D}
-}
-
-@-webkit-keyframes fadeR
-{
-	from{opacity:0.6;}
-	to{opacity:1; background-color: #C63D2D}
-}
-
-/***********************************
-MEDIA QUERIES
-************************************/
-
-/*For 825px or less*/
-@media screen and (max-width: 825px) {
-
-	#deepwords p {font-size: 4.5em;}
-}
-
-/*For 750px or less*/
-@media screen and (max-width: 750px) {
-
-	#deepwords p {font-size: 4em;}
-}
-
-/*For 665px or less*/
-@media screen and (max-width: 665px) {
-
-	#deepwords p {font-size: 3.5em;}
-}
-
-/*For 580 or less*/
-@media screen and (max-width: 578px) {
-
-	#deepwords p {font-size: 3em;}
-	#media {width: 100%;}
-	#media i {font-size: 2em; line-height: 40px;}
-}
-
-/*For 480px or less*/
-@media screen and (max-width: 480px) {
-
-	#deepwords p {font-size: 2.8em;}
-	#media {left: 4%;}
-}
-
-/*For 300px or less*/
-@media screen and (max-width: 270px) {
-
-	#media {left: 0;}
 }
