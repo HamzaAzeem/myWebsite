@@ -17,6 +17,7 @@ $(function() {
   	//E-mail tooltip (experimental)
   	$("#mail").on('click', function () {
 	    $('div.tooltip').toggle('fast');
+	    $('.tooltip input').select();
 	});
 });
 
