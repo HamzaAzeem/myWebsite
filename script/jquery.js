@@ -11,6 +11,15 @@ $(function() {
 
 	//Random background changer
 	$('#changeBG').on('click', function() {
-   		$('html').css('background-image', 'url(images/wall' + Math.floor((Math.random()*5)+1) + '.jpg)');
+   		$('html').css('background-image', 'url(images/wall' + Math.floor((Math.random()*7)+1) + '.jpg)');
   	});
+
+  	//E-mail tooltip (experimental)
+  	$("#mail").on('click', function () {
+	    $('div.tooltip').toggle('fast');
+	});
 });
+
+
+
+/*append('<div class="tooltip"><p>Ctrl + C:<br />hamzaazeem1@gmail.com</p></div>')*/
