@@ -1,7 +1,7 @@
 myWebsite
 =========
 
-Just put together some HTML5 and CSS code for a portfolio-type website. I really wanted to add some Javascript (jQuery and AngularJS) but found no need to (yet). Hence the 'Javascript Sandbox'.
+Just put together some HTML5 and CSS code for a portfolio-type website. I really wanted to add some Javascript (jQuery and AngularJS) but found no need to (yet).
 
 Status: In progress
 
