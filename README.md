@@ -12,7 +12,7 @@ Working pages: 5
   - Resume
   - About Me
   
-Yet to do:
+To-do:
   - Merge uWaterloo/Projects CSS into one stylesheet for better organization
   - Make navigation bar responsive
   - Make all pages responsive
