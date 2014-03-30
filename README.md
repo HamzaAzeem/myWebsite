@@ -13,6 +13,7 @@ Working pages: 4
   
 Yet to do:
   - Projects page
+  - Merge uWaterloo/Projects CSS into one stylesheet for better organization
   - Add behaviour to Email, LinkedIn and Google+ pins
   - Homepage BG slideshow?
   - Fix "Year" links in uWaterloo page
