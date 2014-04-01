@@ -4,7 +4,6 @@ Designer: Hamza Azeem;
 Contact: hamzaazeem1@gmail.com;
 ------------------------------*/
 
-/*Import custom fonts*/
 a {
 	text-decoration: none;
 }
@@ -39,15 +38,8 @@ a.inactive {
 #textwrapper {
 	position: relative;
     max-width: 1000px;
-    margin: 0 75px 75px 75px;
+    margin: 150px 75px 75px 75px;
     overflow: auto;
-}
-
-#uwlogo {
-	max-height: 50%;
-	max-width: 50%;
-	margin-top: 150px;
-	display: inline-block;
 }
 
 /*Text Styles*/

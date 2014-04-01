@@ -6,9 +6,10 @@ Contact: hamzaazeem1@gmail.com;
 
 /*Import custom fonts*/
 @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
-@import url(http://fonts.googleapis.com/css?family=Lato);
+@import url(http://fonts.googleapis.com/css?family=Raleway:300);
 @import url(http://fonts.googleapis.com/css?family=Lobster+Two:400italic);
 @import url(http://fonts.googleapis.com/css?family=Lusitana);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 
 /***********
@@ -19,17 +20,14 @@ DISPLAY
 * {margin: 0px; padding: 0px;}
 
 /*General Styles and Background*/
-html {
-	background-image: url('../images/wall5.jpg');
-	background-size: cover;
-	background-attachment:fixed;
-	transition: all 1s;
-}
-
 body {
-	min-height: 100%;
-	width: 100%;
-	position:;
+	background: no-repeat center center fixed; 
+  		-webkit-background-size: cover;
+  		-moz-background-size: cover;
+  		-o-background-size: cover;
+  		background-size: cover;
+	background-color: #B3B3B3;
+	transition: all 1s;
 }
 
 /*Header*/

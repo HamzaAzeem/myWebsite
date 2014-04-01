@@ -4,9 +4,6 @@ Designer: Hamza Azeem;
 Contact: hamzaazeem1@gmail.com;
 ------------------------------*/
 
-/*Import custom fonts*/
-@import url(http://fonts.googleapis.com/css?family=Raleway:300);
-
 /*Text element*/
 #deepwords {
 	position: absolute;
@@ -56,6 +53,7 @@ Contact: hamzaazeem1@gmail.com;
 	right: 0;
 	bottom: 0;
 	-webkit-text-stroke: 2px black;
+	z-index: 1000;
 }
 
 /*Tooltip for e-mail icon*/
