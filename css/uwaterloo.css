@@ -80,6 +80,11 @@ p {
     text-align: left;
 }
 
+p.submenu {
+	text-align: center;
+	font-family: lusitana;
+}
+
 #btt {
 	height: 50px;
 	width: 225px;

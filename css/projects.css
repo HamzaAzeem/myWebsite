@@ -42,6 +42,10 @@ a.inactive {
     overflow: auto;
 }
 
+#textwrapper h1:first-child {
+	font-family: Raleway;
+}
+
 /*Text Styles*/
 h1 {
     font-family: 'lusitana', sans-serif;
