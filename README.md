@@ -1,9 +1,9 @@
 myWebsite
 =========
 
-Just put together some HTML5 and CSS code for a portfolio-type website. I really wanted to add some Javascript (jQuery and AngularJS) but found no need to (yet).
+Just put together some HTML5 and CSS code for a portfolio-type website.
 
-Status: In progress
+**Status: In progress**
 
 Working pages: 5
   - Home
@@ -14,7 +14,6 @@ Working pages: 5
   
 To-do:
   - Merge uWaterloo/Projects CSS into one stylesheet for better organization
-  - Make navigation bar responsive
   - Make all pages responsive
   - Use relative measures
   - Compress PNG image file sizes
