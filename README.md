@@ -15,6 +15,5 @@ Working pages: 5
 To-do:
   - Merge uWaterloo/Projects CSS into one stylesheet for better organization
   - Make all pages responsive
-  - Use relative measures
   - Compress PNG image file sizes
   - Add a picture of me
