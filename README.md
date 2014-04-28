@@ -13,7 +13,6 @@ Working pages: 5
   - About Me
   
 To-do:
-  - Merge uWaterloo/Projects CSS into one stylesheet for better organization
   - Make all pages responsive
   - Compress PNG image file sizes
   - Add a picture of me
