@@ -34,6 +34,11 @@ $(function() {
 	    $('.tooltip input').select();
 	});
 
+  	$('#mobile-nav').on('click', function() {
+  		$('#menu').toggleClass('mobi');
+  		$('#mobile-nav').toggleClass('clicked');
+  	});
+  	
 	loadBg();
 
 });
