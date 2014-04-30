@@ -21,7 +21,7 @@ $(function() {
 		}
 	}
 
-	$('#changeBG').on('click', function() {
+	$('html').dblclick(function() {
 		var bg =  'url(images/wall' + Math.floor((Math.random()*7)+1) + '.jpg)';
 		console.log("bg", bg);
 		localStorage.setItem("bg", bg);
