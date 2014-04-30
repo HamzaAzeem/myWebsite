@@ -16,4 +16,4 @@ To-do:
   - Make all pages "mobile-first" responsive
   - Fix margins for tablet resolutions
     - Add left/right margins to About Me page
-  - Decrease '<h1>' font-size
+  - Decrease 'h1' font-size
