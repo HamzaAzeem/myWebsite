@@ -13,6 +13,7 @@ Working pages: 5
   - About Me
   
 To-do:
-  - Make all pages responsive
-  - Compress PNG image file sizes
-  - Add a picture of me
+  - Make all pages "mobile-first" responsive
+  - Fix margins for tablet resolutions
+    - Add left/right margins to About Me page
+  - Decrease '<h1>' font-size
