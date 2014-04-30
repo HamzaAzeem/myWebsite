@@ -42,13 +42,13 @@ a.inactive {
     overflow: auto;
 }
 
-#textwrapper h1:first-child {
+/*#textwrapper h1:first-child {
 	font-family: Raleway;
-}
+}*/
 
 /*Text Styles*/
 h1 {
-    font-family: 'lusitana', sans-serif;
+    font-family: 'lusitana', serif;
     color: rgba(60,60,60,1);
     font-size: 48px;
     text-shadow: 0 0 1px rgba(0,0,0,0.3);
@@ -99,4 +99,16 @@ p {
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 0 1px 1px rgba(20,20,20,0.6);
 	display: block;
+}
+
+@media screen and (max-width: 480px) {
+	#textwrapper {
+		margin: 150px 30px 75px 30px;
+	}
+}
+
+@media screen and (max-width: 320px) {
+	#textwrapper {
+		margin: 150px 15px 75px 15px;
+	}
 }

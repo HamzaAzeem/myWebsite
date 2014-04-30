@@ -20,6 +20,10 @@ DISPLAY
 * {margin: 0px; padding: 0px;}
 
 /*General Styles and Background*/
+html{
+ min-height:100%;
+}
+
 body {
 	background: no-repeat center center fixed; 
   		-webkit-background-size: cover;
@@ -28,6 +32,7 @@ body {
   		background-size: cover;
 	background-color: #B3B3B3;
 	transition: all 1s;
+ 	min-height:100%;
 }
 
 /*Header*/
@@ -95,6 +100,9 @@ ul.default li a {
 	border-left: 2px solid #028ED9;
 	font: 24px 'Yanone Kaffeesatz', sans-serif;
 	transition: all 0.1s ease;
+	box-sizing:border-box;
+		-moz-box-sizing:border-box;
+		-webkit-box-sizing:border-box;
 }
 
 ul.default a:hover {

@@ -40,14 +40,17 @@ a.inactive {
 	position: relative;
     max-width: 1000px;
     margin: 0 75px 75px 75px;
-    overflow: auto;
 }
 
 #uwlogo {
-	max-height: 50%;
-	max-width: 50%;
-	margin-top: 150px;
+	max-width: 27%;
+	max-height: 27%;
 	display: inline-block;
+}
+
+div #uwlogo {
+	max-width: 100%;
+	margin-top: 150px;
 }
 
 /*Text Styles*/
@@ -82,7 +85,7 @@ p {
 
 p.submenu {
 	text-align: center;
-	font-family: lusitana;
+	font-family: 'lusitana', serif;
 }
 
 #btt {
@@ -108,4 +111,22 @@ p.submenu {
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 0 1px 1px rgba(20,20,20,0.6);
 	display: block;
+}
+
+@media screen and (max-width: 480px) {
+	#textwrapper {
+		margin: 25px 30px 75px 30px;
+	}
+
+	h1 { font-size: 36px; }
+	h2 { font-size: 25px; }
+	p.submenu { font-size: 18px; margin: 1.5em 0; }
+}
+
+@media screen and (max-width: 320px) {
+	#textwrapper {
+		margin: 20px 15px 75px 15px;
+	}
+
+
 }

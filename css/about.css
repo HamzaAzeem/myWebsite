@@ -4,28 +4,24 @@ Designer: Hamza Azeem;
 Contact: hamzaazeem1@gmail.com;
 ------------------------------*/
 
-/*Import custom fonts*/
+/*Hide scrollbars*/
+::-webkit-scrollbar {
+    display: none;
+}
 
 /***CONTAINER***/
 
-/*Containers*/
 #container {
 	min-height: 900px;
-    max-width: 1200px;
-    margin: 0 auto;
-    background: white;
-    position: relative;
-    z-index: -1;
+    margin-bottom: 75px; 
     box-shadow: 0 5px 5px rgba(20,20,20,0.8);
     background: url('../images/white_wall2.png');
+    overflow: auto;
+    padding: 75px 0;
 }
 
 #textwrapper {
-    max-width: 700px;
-    max-height: 650px;
-    position: absolute;
-    margin: 200px 0 75px 45px;
-    overflow: auto;
+    margin: 0 10px;
 }
 
 /*Text Styles*/
@@ -47,12 +43,45 @@ p {
 
 /*Picture*/
 #pic {
-	border-radius: 15px;
-	border-style: dashed;
-	position: absolute;
-	right: -80px;
-	width: 400px;
-	height: 500px;
-	top: 200px;
+    display: block;
+    width: 200px;
+    height: 200px;
+    margin: 65px auto 10px;
+    position: relative;
 	box-shadow: -5px 5px 5px rgba(0,0,0,.5);
+    border-radius: 100%;
+    content: url('../images/pic_sq.jpg');
+}
+
+@media screen and (min-width: 940px) {
+    #container {
+        max-width: 1200px;
+        margin: 0 auto;
+        position: relative;
+        padding: 0;
+    }
+
+    #textwrapper {
+        position: relative;
+        max-width: 700px;
+        margin: 200px 0 75px 45px;
+    }
+
+    #pic {
+        right: 10px;
+        top: 130px;
+        display: inline;
+        float: right;
+    }
+}
+
+@media screen and (min-width: 1100px) {
+    #pic {
+        right: 20px;
+        top: 200px;
+        border-radius: 15px;
+        width: 30%;
+        height: 30%;
+        content: url('../images/pic.jpg');
+    }
 }

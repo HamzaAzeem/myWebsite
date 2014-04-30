@@ -7,7 +7,7 @@ Contact: hamzaazeem1@gmail.com;
 /*Text element*/
 #deepwords {
 	position: absolute;
-	margin: 13.5em 0 0 46px;
+	margin: 13.5em 0 0 5%;
 	display: block;
 }
 
@@ -20,11 +20,10 @@ Contact: hamzaazeem1@gmail.com;
 
 /*Social Media Icons*/
 #media {
-	width: 600px;
+	width: 760px;
 	position: absolute;
-	padding-left: 0; 
-	margin-top: 34em;
-	left: 46px;
+	top: 35em;
+	left: 5%;
 }
 
 #media i {
@@ -50,10 +49,12 @@ Contact: hamzaazeem1@gmail.com;
 	color: white;
 	cursor: pointer;
 	position: absolute;
+	text-align: right;
 	right: 0;
 	bottom: 0;
-	-webkit-text-stroke: 2px black;
-	z-index: 1000;
+	text-stroke: 2px black;
+		-webkit-text-stroke: 2px black;
+	z-index: 100;
 }
 
 /*Tooltip for e-mail icon*/
@@ -183,24 +184,18 @@ MEDIA QUERIES
 @media screen and (max-width: 665px) {
 
 	#deepwords p {font-size: 3.5em;}
-}
-
-/*For 580 or less*/
-@media screen and (max-width: 578px) {
-
-	#deepwords p {font-size: 3em;}
-	#media {width: 100%;}
-	#media i {font-size: 2em; line-height: 40px;}
+	#media {width: 95%;}
 }
 
 /*For 480px or less*/
 @media screen and (max-width: 480px) {
-
+	
+	#deepwords { margin-top: 11em; }
 	#deepwords p {font-size: 2.8em;}
-	#media {left: 4%;}
+	#media i {font-size: 2em; line-height: 40px;}
 }
 
-/*For 300px or less*/
+/*For 270px or less*/
 @media screen and (max-width: 270px) {
 	#media {left: 0;}
 }
