@@ -14,6 +14,3 @@ Working pages: 5
   
 To-do:
   - Make all pages "mobile-first" responsive
-  - Fix margins for tablet resolutions
-    - Add left/right margins to About Me page
-  - Decrease 'h1' font-size
