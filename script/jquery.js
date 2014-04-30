@@ -38,6 +38,11 @@ $(function() {
   		$('#menu').toggleClass('mobi');
   		$('#mobile-nav').toggleClass('clicked');
   	});
+
+  	$('h1').on('click', function() {
+  		console.log('clicked');
+  		$(this).next('p').toggleClass('visibility');
+  	});
   	
 	loadBg();
 

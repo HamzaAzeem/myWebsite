@@ -59,6 +59,7 @@ h1 {
     color: rgba(60,60,60,1);
     font-size: 48px;
     text-shadow: 0 0 1px rgba(0,0,0,0.3);
+    cursor: pointer;
 }
 
 h2 {
@@ -86,6 +87,10 @@ p {
 p.submenu {
 	text-align: center;
 	font-family: 'lusitana', serif;
+}
+
+.visibility {
+	display: none;
 }
 
 #btt {
