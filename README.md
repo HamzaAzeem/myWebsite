@@ -14,3 +14,5 @@ Working pages: 5
   
 To-do:
   - Make all pages "mobile-first" responsive
+  - 1B Content
+  - Projects Content
