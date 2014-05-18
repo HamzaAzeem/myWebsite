@@ -41,7 +41,7 @@ $(function() {
 
   	$('h1').on('click', function() {
   		console.log('clicked');
-  		$(this).next('p').toggleClass('visibility');
+  		$(this).next('section').toggleClass('visibility').not(':first');
   	});
   	
 	loadBg();
