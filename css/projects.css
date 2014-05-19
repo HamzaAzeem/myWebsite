@@ -42,10 +42,6 @@ a.inactive {
     overflow: auto;
 }
 
-/*#textwrapper h1:first-child {
-	font-family: Raleway;
-}*/
-
 /*Text Styles*/
 h1 {
     font-family: 'lusitana', serif;
@@ -55,14 +51,14 @@ h1 {
 }
 
 h2 {
-	font-family: "lusitana", serif;
+	font-family: "lato", serif;
 	font-size: 32px;
-	text-align: center;
-	line-height: 150%;
+	text-align: left;
+	margin-top: 50px;
 }
 
 /*Anchor link header conflict fix*/
-h1:before, h2:before {
+h1:before {
 	display: block;
 	content: " ";
 	margin-top: -76px;
@@ -99,6 +95,31 @@ p {
 	font-family: 'Raleway', sans-serif;
 	text-shadow: 0 1px 1px rgba(20,20,20,0.6);
 	display: block;
+}
+
+.projectPic {
+	height: 350px;
+}
+
+#cube {
+	background: url("../images/cube.jpg") no-repeat center;
+}
+
+#robot {
+	background: url("../images/robot.jpg") no-repeat center;
+}
+
+div #fastask {
+	height: 300px;
+}
+#fastask {
+	background: url("../images/fastask.png") no-repeat center;
+}
+
+.desc {
+	text-align: center;
+	font-size: 18px;
+	margin-top: 5px;
 }
 
 @media screen and (max-width: 1200px) {
