@@ -109,11 +109,8 @@ p {
 	background: url("../images/robot.jpg") no-repeat center;
 }
 
-div #fastask {
-	height: 300px;
-}
 #fastask {
-	background: url("../images/fastask.png") no-repeat center;
+	background: url("../images/fastask.jpg") no-repeat center;
 }
 
 .desc {
