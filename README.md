@@ -3,7 +3,7 @@ myWebsite
 
 Just put together some HTML5 and CSS code for a portfolio-type website.
 
-**Status: In progress**
+**Status: Complete [minor tweaks needed]**
 
 Working pages: 5
   - Home (A bit buggy on mobile viewports)
@@ -14,5 +14,3 @@ Working pages: 5
   
 To-do:
   - Make all pages "mobile-first" responsive
-  - 1B Content
-  - Projects Content
