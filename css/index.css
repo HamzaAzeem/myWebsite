@@ -57,7 +57,7 @@ Contact: hamzaazeem1@gmail.com;
 	z-index: 100;
 }
 
-/*Tooltip for e-mail icon*/
+/*Tooltip for e-mail icon
 div.tooltip {
 	background-color: green;
 	color: white;
@@ -91,7 +91,7 @@ div.tooltip input {
 	border: 0;
 	font-size: 1em;
 	font-family: 'Raleway';
-}
+}*/
 
 /***********************************
 ANIMATIONS
