@@ -3,6 +3,9 @@ Projects/uWaterloo Template Style
 Designer: Hamza Azeem;
 Contact: hamzaazeem1@gmail.com;
 ------------------------------*/
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
+@import url(http://fonts.googleapis.com/css?family=Lusitana);
+@import url(http://fonts.googleapis.com/css?family=Lato);
 
 a {
 	text-decoration: none;
