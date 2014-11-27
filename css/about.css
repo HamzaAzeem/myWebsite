@@ -3,9 +3,6 @@ AboutMe Template Style
 Designer: Hamza Azeem;
 Contact: hamzaazeem1@gmail.com;
 ------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
-@import url(http://fonts.googleapis.com/css?family=Lobster+Two:400italic);
-@import url(http://fonts.googleapis.com/css?family=Lato);
 
 /*Hide scrollbars*/
 ::-webkit-scrollbar {
@@ -16,7 +13,7 @@ Contact: hamzaazeem1@gmail.com;
 
 #container {
 	min-height: 900px;
-    margin-bottom: 75px; 
+    margin-bottom: 75px;
     box-shadow: 0 5px 5px rgba(20,20,20,0.8);
     background: url('../images/white_wall2.png');
     overflow: auto;
@@ -53,7 +50,6 @@ p {
     position: relative;
 	box-shadow: -5px 5px 5px rgba(0,0,0,.5);
     border-radius: 100%;
-    content: url('../images/pic_sq.jpg');
 }
 
 @media screen and (min-width: 940px) {

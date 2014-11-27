@@ -16,7 +16,7 @@ html{
 }
 
 body {
-	background: no-repeat center center fixed; 
+	background: no-repeat center center fixed;
   		-webkit-background-size: cover;
   		-moz-background-size: cover;
   		-o-background-size: cover;
@@ -103,12 +103,12 @@ ul.default a:hover {
 }
 
 @media (max-width:40.5em){
-	
+
 	ul.default { display: none; }
 	#mobile-nav { display: block; }
 
 	ul.mobi {
-		display: block; 
+		display: block;
 	    position: absolute;
 	    right: 0px;
 	    top: 100%;

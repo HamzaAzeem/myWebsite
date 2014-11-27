@@ -3,8 +3,6 @@ Index Template Style
 Designer: Hamza Azeem;
 Contact: hamzaazeem1@gmail.com;
 ------------------------------*/
-@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:300);
-@import url(http://fonts.googleapis.com/css?family=Raleway:300);
 
 
 #container {
@@ -99,7 +97,7 @@ MEDIA QUERIES
 
 /*For 480px or less*/
 @media screen and (max-width: 480px) {
-	
+
 	#deepwords { margin-top: 11em; }
 	#deepwords p {font-size: 2.8em;}
 }
